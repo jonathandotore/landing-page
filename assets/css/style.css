@@ -159,7 +159,54 @@ h6 {font-size: 3.5rem;}
 .top3 h2 {
     margin: 5rem;
 }
+
 .top3 p  {
     line-height: 1.5;
     margin-top: 3rem;
+}
+
+.grid-one-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.grid-one-content h2 {
+    margin: -5rem 0 0 0;
+}
+
+.grid-one-content p {
+    margin: 2rem 0 10rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    counter-reset: grid-counter;
+}
+
+.grid article {
+    padding: 2rem;
+}
+
+.grid p {
+    text-align: justify;
+}
+
+.grid h5 {
+    font-size: 2.5rem;
+    position: relative;
+    margin-left: 5rem;
+}
+
+.grid h5::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 5rem;
+    font-style: italic;
+    top: -2rem;
+    left: -5rem;
+    transform: rotate(8deg);
 }
