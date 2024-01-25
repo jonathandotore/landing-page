@@ -105,3 +105,41 @@ h6 {font-size: 3.5rem;}
     color: var(--white-color);
     transition: all 400ms ease-in-out;
 }
+
+.menu-spacing {
+    height: 6.5rem;
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: calc(100vh - 6.5rem);
+}
+
+.intro-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.intro-text h2 {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.intro-text p {
+    line-height: 1.5;
+}
+
+.intro-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
