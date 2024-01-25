@@ -143,3 +143,15 @@ h6 {font-size: 3.5rem;}
     max-width: 100%;
     height: auto;
 }
+
+.top3 {
+    text-align: center;
+    height: 100vh;
+}
+
+.top3 h2 {
+    margin: 5rem;
+}
+.top3 p  {
+    line-height: 1.5;
+}
