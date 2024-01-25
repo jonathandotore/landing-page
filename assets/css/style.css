@@ -18,6 +18,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
@@ -145,6 +149,9 @@ h6 {font-size: 3.5rem;}
 }
 
 .top3 {
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
     text-align: center;
     height: 100vh;
 }
@@ -154,4 +161,5 @@ h6 {font-size: 3.5rem;}
 }
 .top3 p  {
     line-height: 1.5;
+    margin-top: 3rem;
 }
