@@ -247,6 +247,9 @@ h6 {font-size: 3.5rem;}
     margin: 4rem 0 5rem 0;
     text-align: center;
 }
+.table-pricing {
+    margin-top: 12rem;
+}
 
 .price-content p {
     font-size: 1.9rem;
@@ -255,15 +258,19 @@ h6 {font-size: 3.5rem;}
 }
 
 table {
+    font-size: 2rem;
+    width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
     text-align: center;
 }
 
-thead td {
+thead tr {
+    color: #000;
     background-color: var(--white-color);
 }
+
 table td, table th {
-    padding: 1rem;
+    padding: 1.5rem;
     border: 0.2rem solid var(--light-gray-color)
 }
